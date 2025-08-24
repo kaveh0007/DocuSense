@@ -1,4 +1,4 @@
-# RAG over PDFs — Streamlit + FAISS + SBERT
+# DocuSense
 
 DocuSense is an AI-powered app that reads your PDFs and answers questions using Retrieval-Augmented Generation (RAG).
 
