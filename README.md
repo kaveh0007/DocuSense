@@ -23,7 +23,7 @@ DocuSense is an AI-powered app that reads your PDFs and answers questions using 
 
 ## Quickstart
 
-### 1) Create & activate a virtualenv (recommended)
+### 1) Create & activate a virtualenv
 ```bash
 python -m venv .venv
 source .venv/bin/activate     # Windows: .venv\Scripts\activate
@@ -50,7 +50,7 @@ export OPENAI_API_KEY="sk-..."
 ```
 If not set, the app will automatically use an open‑source fallback (FLAN‑T5) locally.
 
-### 5) Try the CLI (optional)
+### 5) Try the CLI 
 ```bash
 # Ingest one or more PDFs
 python cli.py ingest sample_pdfs/sample.pdf
